@@ -1,3 +1,3 @@
 def highest_rating
-  Movie.order(rating: :desc)
+  Show.order(rating: :desc)
 end
